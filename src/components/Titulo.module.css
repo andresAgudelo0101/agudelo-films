@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap");
+
+.titulo {
+  font-size: 2.9rem;
+  text-align: center;
+  font-family: Impact, Charcoal, sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-weight: 300;
+  text-decoration: none;
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: none;
+}
+
+.loopLogo {
+  margin-left: 5px;
+  width: 50px;
+  animation: spinner 8s linear infinite;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 578px) {
+  .titulo {
+    width: 100%;
+    font-size: 2.3em;
+  }
+}

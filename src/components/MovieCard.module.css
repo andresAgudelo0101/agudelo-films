@@ -1,0 +1,70 @@
+a{text-decoration: none;}
+
+.movieCard{
+  list-style: none;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.movieImage{
+    border-radius: 8px;
+    background-color: azure;
+   
+}
+.scoreColorRed{
+    color: red;
+     text-decoration: none;
+}
+.scoreColorGreen{
+    color: green;
+}
+
+.contenedorScore{
+    text-decoration: none;
+    margin-top: auto;
+}
+.contenedorYear{
+    
+    color: #8da0bc;
+    font-weight: lighter;
+}
+.titulo{
+    color: azure;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.contenedorTitulo{
+    height: 65px;
+    width: 100%;
+   padding:12px;
+}
+
+.tituloYear{
+    font-size: 0.7em;
+}
+
+.movieImage:hover{
+    opacity: 0.7;
+    transform: scale(1.03);
+  
+    
+    
+}
+
+
+@media (max-width: 578px) {
+    .movieCard{
+        width: 100%;
+        
+    } 
+    .movieImage{
+        width: 90%;
+        height: auto;
+     }
+
+    
+}

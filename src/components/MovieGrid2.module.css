@@ -1,0 +1,19 @@
+.movieGrid{
+    float: left;
+    display: grid;
+    grid-template-columns:repeat(50, auto);
+    grid-gap: 50px;
+    list-style-type: none;
+   
+}
+  
+   
+    
+  
+
+
+@media (max-width: 560px) {
+    .movieGrid{
+        grid-template-columns: 100%;
+    }
+}

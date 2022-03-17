@@ -1,0 +1,66 @@
+
+.contenedor{
+    background-color: #872FEB;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 100%;
+  
+}
+
+
+.cabezera{
+    background-color: #872FEB;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 100%;
+  
+    
+}
+
+.menu{
+  
+}
+    
+.movieDetails{
+    float: left;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+
+.footerContainer{
+    float: left;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    background-color: #211E1E;
+}
+
+
+
+@media (max-width: 578px) {
+   
+    
+   .menu{
+        width: 80%;
+       /* background-color: red;*/
+       
+        }
+  
+  }
+
+  @media (max-width:1920px){
+     .footerContainer{
+      margin-top: 3%;
+    }
+
+
+  }

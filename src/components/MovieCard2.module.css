@@ -1,0 +1,100 @@
+.contenedorCard{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;    
+     list-style: none;
+    padding-bottom: 10px;
+    text-decoration: none;
+    
+ }
+
+.contenedorImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+  
+    color: white;
+    padding: 0;
+    height: 160px;
+}
+.contenedorTexto{
+    float: left;
+     width: 40%;
+     height: 160px;
+     margin-bottom: 30px;
+    font-size: 1.1rem;
+    padding: 15px;
+    overflow: hidden;
+   
+    
+}
+
+.contedor2{
+    display: flex;
+    justify-content: center;
+ }
+
+
+.movieImage{
+    float: left;
+    border-radius: 10px;
+    height: 155px;
+    width: auto;
+  }
+ 
+ .titulo{
+      color: azure;
+      font-weight: 730;
+      font-size: 1.4em;
+      white-space:nowrap;
+      text-overflow:ellipsis;
+      overflow: hidden;
+     
+      font-size: 1.2rem;
+      
+  }
+
+  .resumen{
+    color: white;
+    font-weight: 300;
+    white-space:normal;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    font-size: 1.1rem;
+
+  }
+  
+  
+  
+
+  
+  
+  @media (max-width: 578px) {
+     
+      .movieImage{
+          height: 137px;
+       }
+  
+       .resumen{
+        color: white;
+        white-space:normal;
+        text-overflow:ellipsis;
+        overflow:hidden;
+        font-size: 0.9rem;
+        
+      }
+
+      .contenedorImagen{
+        
+        height: 130px;
+    }
+    .contenedorTexto{
+        height: 130px;
+        
+    }
+
+    
+  }
+  
